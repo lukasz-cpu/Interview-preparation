@@ -117,3 +117,9 @@ Optimistic Locking is a strategy where you read a record, take note of a version
 
 ![firefox_OLz5c6nnio](https://user-images.githubusercontent.com/22981511/223186759-fa25b2fa-4c42-4be2-8b18-d3b9084ddb6f.jpeg)
 
+10. Pessimistic
+
+Pessimistic locking achieves this goal by taking a shared or read lock on the account so Bob is prevented from changing the account.
+
+![firefox_uhxmyykBBn](https://user-images.githubusercontent.com/22981511/223187794-1200d259-52a1-475c-891e-59b9573e7bb0.png)
+
