@@ -148,3 +148,61 @@ Dependencies can be injected into objects by many means (such as constructor inj
 
 https://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-join-left-join-right-join-and-full-join
 
+13. Builder Pattern
+
+The Builder Pattern is a creational design pattern that is commonly used in Java programming. It is used to create complex objects by separating the construction of an object from its representation. The pattern involves the use of a separate builder class that is responsible for creating the desired object.
+
+```java
+public class Person {
+    private final String name;
+    private final int age;
+    private final String address;
+    private final String phone;
+
+    private Person(PersonBuilder builder) {
+        this.name = builder.name;
+        this.age = builder.age;
+        this.address = builder.address;
+        this.phone = builder.phone;
+    }
+
+    public static class PersonBuilder {
+        private String name;
+        private int age;
+        private String address;
+        private String phone;
+
+        public PersonBuilder(String name, int age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        public PersonBuilder address(String address) {
+            this.address = address;
+            return this;
+        }
+
+        public PersonBuilder phone(String phone) {
+            this.phone = phone;
+            return this;
+        }
+
+        public Person build() {
+            return new Person(this);
+        }
+    }
+
+    // getters and setters
+}
+
+```
+
+To use the Builder Pattern, we would create a new Person object using the builder, like this:
+
+```java
+Person person = new Person.PersonBuilder("John", 30)
+        .address("123 Main St")
+        .phone("555-555-1234")
+        .build();
+```
+
