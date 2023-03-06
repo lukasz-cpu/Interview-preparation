@@ -107,3 +107,7 @@ How HashMap Internally Works
 
 https://www.youtube.com/watch?v=1CJbB6SzjVw&t=1s
 
+8. ACID 
+
+https://stackoverflow.com/questions/3740280/how-do-acid-and-database-transactions-work
+
