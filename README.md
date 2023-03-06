@@ -152,7 +152,7 @@ https://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-j
 
 
 13. Builder Pattern
-
+ 
 The Builder Pattern is a creational design pattern that is commonly used in Java programming. It is used to create complex objects by separating the construction of an object from its representation. The pattern involves the use of a separate builder class that is responsible for creating the desired object.
 
 ```java
