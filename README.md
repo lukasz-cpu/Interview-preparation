@@ -117,10 +117,14 @@ Optimistic Locking is a strategy where you read a record, take note of a version
 
 ![firefox_OLz5c6nnio](https://user-images.githubusercontent.com/22981511/223186759-fa25b2fa-4c42-4be2-8b18-d3b9084ddb6f.jpeg)
 
+https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking
+
 10. Pessimistic
 Pessimistic Locking is when you lock the record for your exclusive use until you have finished with it. It has much better integrity than optimistic locking but requires you to be careful with your application design to avoid Deadlocks. To use pessimistic locking you need either a direct connection to the database (as would typically be the case in a two tier client server application) or an externally available transaction ID that can be used independently of the connection. 
 
 ![firefox_uhxmyykBBn](https://user-images.githubusercontent.com/22981511/223187794-1200d259-52a1-475c-891e-59b9573e7bb0.png)
+
+https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking
 
 11. Dependency injection
 
@@ -135,5 +139,6 @@ public class MyClass {
    }
 }
 ```
+
 
 
