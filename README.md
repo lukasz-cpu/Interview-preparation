@@ -90,4 +90,15 @@ function int addOne()
 
 ```
 
+6. Deadlock
+
+A deadlock occurs when two or more processes or threads are blocked waiting for each other to release resources that they need in order to proceed. In other words, each process or thread is holding a resource that the other process or thread needs, and neither of them can proceed until they are able to acquire the resource that the other is holding. Deadlocks can occur in a variety of situations, but they typically arise in systems where there are multiple processes or threads competing for a limited set of resources, such as shared memory, I/O devices, or locks. To prevent deadlocks, it is important to design systems that minimize resource contention and ensure that resources are released in a timely and predictable manner. Here are some strategies that can help prevent deadlocks:
+
+- Avoid circular wait: Design the system to prevent circular waits, where each process is waiting for a resource that is held by another process in the circle.
+- Resource allocation order: Specify an order for acquiring resources and make sure all processes follow the same order. This will ensure that resources are acquired in a predictable manner and can help prevent deadlocks.
+- Use timeouts: Set timeouts for resource requests, so that if a process or thread is unable to acquire a resource within a certain time, it will release the resources it is holding and try again later.
+- Resource preemption: If a process or thread is holding a resource that another process needs, the system can preempt the resource and give it to the waiting process. This can be done in a controlled manner to prevent resource starvation.
+- Deadlock detection and recovery: Implement algorithms to detect deadlocks and recover from them. One common approach is to use a resource allocation graph to identify cycles and release resources in a way that breaks the cycle.
+
+![firefox_LHiG2bQtxk](https://user-images.githubusercontent.com/22981511/223111747-4b87b7c1-8d7a-4256-af9b-c39acf440505.png)
 
