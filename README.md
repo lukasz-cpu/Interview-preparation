@@ -122,3 +122,18 @@ Pessimistic Locking is when you lock the record for your exclusive use until you
 
 ![firefox_uhxmyykBBn](https://user-images.githubusercontent.com/22981511/223187794-1200d259-52a1-475c-891e-59b9573e7bb0.png)
 
+11. Dependency injection
+
+Dependency injection is a design pattern commonly used in Java programming to achieve loose coupling between classes and to promote code reusability. In dependency injection, an object's dependencies are provided to it rather than having the object create them itself.
+
+```java
+public class MyClass {
+   private final MyDependency myDependency;
+
+   public MyClass(MyDependency myDependency) {
+      this.myDependency = myDependency;
+   }
+}
+```
+
+
