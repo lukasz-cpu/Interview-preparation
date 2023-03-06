@@ -102,3 +102,8 @@ A deadlock occurs when two or more processes or threads are blocked waiting for 
 
 ![firefox_LHiG2bQtxk](https://user-images.githubusercontent.com/22981511/223111747-4b87b7c1-8d7a-4256-af9b-c39acf440505.png)
 
+7. 
+How HashMap Internally Works
+
+https://www.youtube.com/watch?v=1CJbB6SzjVw&t=1s
+
