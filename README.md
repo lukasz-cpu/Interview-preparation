@@ -55,5 +55,5 @@ public class PrimeNumbers {
 
 ![firefox_xSwpXsbCNC](https://user-images.githubusercontent.com/22981511/223092868-1fdf70e8-d04a-497f-a4ac-f50120329a6a.jpeg)
 
-![firefox_LHiG2bQtxk](https://user-images.githubusercontent.com/22981511/223093323-f858e41f-71c2-4b13-bd92-aa8d6a66dc13.png)
+![s](https://user-images.githubusercontent.com/22981511/223093638-761ac6d8-3f70-492b-b4f2-90c4107b5c9f.png)
 
