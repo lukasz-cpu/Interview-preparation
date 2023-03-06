@@ -112,3 +112,7 @@ https://www.youtube.com/watch?v=1CJbB6SzjVw&t=1s
 https://stackoverflow.com/questions/3740280/how-do-acid-and-database-transactions-work
 ![Lambo](https://user-images.githubusercontent.com/22981511/223170073-397405b6-3164-40cc-bb10-26d608e05cc3.png)
 
+9. 
+Optimistic Locking is a strategy where you read a record, take note of a version number (other methods to do this involve dates, timestamps or checksums/hashes) and check that the version hasn't changed before you write the record back. When you write the record back you filter the update on the version to make sure it's atomic. (i.e. hasn't been updated between when you check the version and write the record to the disk) and update the version in one hit.If the record is dirty (i.e. different version to yours) you abort the transaction and the user can re-start it. This strategy is most applicable to high-volume systems and three-tier architectures where you do not necessarily maintain a connection to the database for your session. In this situation the client cannot actually maintain database locks as the connections are taken from a pool and you may not be using the same connection from one access to the next.
+![firefox_OLz5c6nnio](https://user-images.githubusercontent.com/22981511/223186759-fa25b2fa-4c42-4be2-8b18-d3b9084ddb6f.jpeg)
+
