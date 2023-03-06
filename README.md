@@ -50,3 +50,8 @@ public class PrimeNumbers {
 }
 ```
 
+3. Stack and Heap Structure
+
+
+![firefox_xSwpXsbCNC](https://user-images.githubusercontent.com/22981511/223092868-1fdf70e8-d04a-497f-a4ac-f50120329a6a.jpeg)
+
