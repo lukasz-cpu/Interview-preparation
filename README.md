@@ -209,3 +209,24 @@ Person person = new Person.PersonBuilder("John", 30)
         .build();
 ```
 
+14. Singleton Pattern
+
+```java
+public class MyClass{
+    private static Myclass instance;
+
+    private MyClass(){
+        //Private instantiation
+    }
+
+    public static synchronized MyClass getInstance()  //If you want your method thread safe...
+    {
+        if (instance == null) {
+            instance = new MyClass();
+        }
+
+        return instance;
+    }
+}
+```
+
