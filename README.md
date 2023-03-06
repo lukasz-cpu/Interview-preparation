@@ -148,3 +148,4 @@ Dependencies can be injected into objects by many means (such as constructor inj
 
 https://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-join-left-join-right-join-and-full-join
 
+![firefox_uhxmyykBBn](https://user-images.githubusercontent.com/22981511/223193707-a1b70483-2dd3-4903-8286-833102ea7ccf.png)
