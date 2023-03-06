@@ -144,5 +144,7 @@ Dependency injection is basically providing the objects that an object needs (it
 
 Dependencies can be injected into objects by many means (such as constructor injection or setter injection). One can even use specialized dependency injection frameworks (e.g. Spring) to do that, but they certainly aren't required. You don't need those frameworks to have dependency injection. Instantiating and passing objects (dependencies) explicitly is just as good an injection as injection by framework.
 
+12. What's the difference between INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL JOIN?
 
+https://stackoverflow.com/questions/5706437/whats-the-difference-between-inner-join-left-join-right-join-and-full-join
 
