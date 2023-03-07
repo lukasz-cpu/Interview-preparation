@@ -232,5 +232,132 @@ public class MyClass{
 
 15. Strategy Pattern
 
+```java
+public interface PaymentStrategy {
+    void pay(double amount);
+}
+```
+
+```java
+public class CreditCardPayment implements PaymentStrategy {
+    private String name;
+    private String cardNumber;
+    private String cvv;
+    private String dateOfExpiry;
+
+    public CreditCardPayment(String name, String cardNumber, String cvv, String dateOfExpiry) {
+        this.name = name;
+        this.cardNumber = cardNumber;
+        this.cvv = cvv;
+        this.dateOfExpiry = dateOfExpiry;
+    }
+
+    public void pay(double amount) {
+        System.out.println(amount + " paid using credit card.");
+    }
+}
+
+public class PayPalPayment implements PaymentStrategy {
+    private String emailId;
+    private String password;
+
+    public PayPalPayment(String emailId, String password) {
+        this.emailId = emailId;
+        this.password = password;
+    }
+
+    public void pay(double amount) {
+        System.out.println(amount + " paid using PayPal.");
+    }
+}
+```
+```java
+public class PaymentContext {
+    private PaymentStrategy paymentStrategy;
+
+    public PaymentContext(PaymentStrategy paymentStrategy) {
+        this.paymentStrategy = paymentStrategy;
+    }
+
+    public void executePayment(double amount) {
+        paymentStrategy.pay(amount);
+    }
+}
+```
+```java
+public class Main {
+    public static void main(String[] args) {
+        PaymentContext paymentContext = new PaymentContext(new CreditCardPayment("John Doe", "1234 5678 9012 3456", "123", "12/22"));
+        paymentContext.executePayment(100.0);
+
+        paymentContext = new PaymentContext(new PayPalPayment("john.doe@example.com", "password123"));
+        paymentContext.executePayment(200.0);
+    }
+}
+
+```
+
+16. Facade Pattern
+
+Suppose we have a complex subsystem with several classes that work together to perform a task. We can simplify the interface to this subsystem by creating a Facade class that encapsulates the complexity of the subsystem and provides a simpler interface to the clients.
+
+Let's take an example of a computer system that has several components like CPU, RAM, HardDisk, etc. The Facade class will encapsulate the complexity of the subsystem and provide a simple interface to start the computer.
+
+```java
+public class CPU {
+    public void processData() {
+        System.out.println("CPU is processing data...");
+    }
+}
+
+public class RAM {
+    public void load() {
+        System.out.println("RAM is loading data...");
+    }
+}
+
+public class HardDisk {
+    public void readData() {
+        System.out.println("HardDisk is reading data...");
+    }
+}
+
+public class ComputerFacade {
+    private CPU cpu;
+    private RAM ram;
+    private HardDisk hardDisk;
+
+    public ComputerFacade() {
+        cpu = new CPU();
+        ram = new RAM();
+        hardDisk = new HardDisk();
+    }
+
+    public void start() {
+        hardDisk.readData();
+        ram.load();
+        cpu.processData();
+        System.out.println("Computer has started successfully!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        ComputerFacade computer = new ComputerFacade();
+        computer.start();
+    }
+}
+
+```
+
+17. Comparable vs Comparator
+
+When your class implements Comparable, the compareTo method of the class is defining the "natural" ordering of that object. That method is contractually obligated (though not demanded) to be in line with other methods on that object, such as a 0 should always be returned for objects when the .equals() comparisons return true.
+
+A Comparator is its own definition of how to compare two objects, and can be used to compare objects in a way that might not align with the natural ordering.
+
+For example, Strings are generally compared alphabetically. Thus the "a".compareTo("b") would use alphabetical comparisons. If you wanted to compare Strings on length, you would need to write a custom comparator.
+
+In short, there isn't much difference. They are both ends to similar means. In general implement comparable for natural order, (natural order definition is obviously open to interpretation), and write a comparator for other sorting or comparison needs.
 
 
