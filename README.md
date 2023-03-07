@@ -387,6 +387,19 @@ public class MyClassTest {
 
 19. Stack
 
+Java Collection Framework provides a class named “Stack”. This Stack class extends the Vector class and implements the functionality of the Stack data structure. 
+
+![firefox_DKh0mpSAOW](https://user-images.githubusercontent.com/22981511/223490693-73be5aaa-2913-441b-8fe0-0eaafb68d80d.jpeg)
+
+A stack data structure supports the following operations:
+
+    Push: Adds an element to the stack. As a result, the value of the top is incremented.
+    Pop: An element is removed from the stack. After the pop operation, the value of the top is decremented.
+    Peek: This operation is used to look up or search for an element. The value of the top is not modified.
+
+
+![firefox_GN1WCQeIvB](https://user-images.githubusercontent.com/22981511/223490893-63cdadf1-3dcd-4920-8196-05717ca6bb75.png)
+
 
 
 https://www.techiedelight.com/stack-implementation-in-java/
