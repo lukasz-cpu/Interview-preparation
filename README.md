@@ -354,5 +354,34 @@ public class Main {
 
 ![firefox_FJVfhJ2S7K](https://user-images.githubusercontent.com/22981511/223449976-e0135d23-23ad-4351-ab27-c966d580b636.jpeg)
 
+18. Are private methods testable?
 
+Yes, it is possible to test private methods in Java using reflection. However, testing private methods should generally be avoided as it can make the tests brittle and difficult to maintain. Instead, you should focus on testing the public behavior of your classes.
 
+```java
+public class MyClass {
+    private int privateMethod(int x) {
+        return x * 2;
+    }
+}
+```
+
+and
+
+```java
+import java.lang.reflect.Method;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+
+public class MyClassTest {
+    @Test
+    public void testPrivateMethod() throws Exception {
+        MyClass myObject = new MyClass();
+        Method privateMethod = MyClass.class.getDeclaredMethod("privateMethod", int.class);
+        privateMethod.setAccessible(true);
+        int result = (int) privateMethod.invoke(myObject, 3);
+        assertEquals(6, result);
+    }
+}
+
+```
