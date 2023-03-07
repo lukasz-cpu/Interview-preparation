@@ -417,5 +417,15 @@ Being an interface the queue needs a concrete class for the declaration and the 
 
 21. Type of references in Java
 
+- Stron References - This is the default type/class of Reference Object. Any object which has an active strong reference are not eligible for garbage collection. The object is garbage collected only when the variable which was strongly referenced points to null.
 
+```java
+MyClass obj = new MyClass ();
+```
+Here ‘obj’ object is strong reference to newly created instance of MyClass, currently obj is active object so can’t be garbage collected.
+```java
+obj = null;
+```
+//'obj' object is no longer referencing to the instance. 
+So the 'MyClass type object is now available for garbage collection.  
 
