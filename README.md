@@ -407,6 +407,12 @@ https://www.techiedelight.com/stack-implementation-in-java/
 
 20. Queue
 
+The Queue interface is present in java.util package and extends the Collection interface is used to hold the elements about to be processed in FIFO(First In First Out) order. It is an ordered list of objects with its use limited to inserting elements at the end of the list and deleting elements from the start of the list, (i.e.), it follows the FIFO or the First-In-First-Out principle.
+
+Queue-Deque-PriorityQueue-In-Java
+
+Being an interface the queue needs a concrete class for the declaration and the most common classes are the PriorityQueue and LinkedList in Java. Note that neither of these implementations is thread-safe. PriorityBlockingQueue is one alternative implementation if the thread-safe implementation is needed.
+
 ![firefox_XCK62qZjR0](https://user-images.githubusercontent.com/22981511/223498582-d21f6123-2e23-4bb0-84e9-9a3395428be9.png)
 
 ![firefox_8T97ZbxCGk](https://user-images.githubusercontent.com/22981511/223497835-e382b0fb-9a0a-4c0a-a870-1627d7f2cbfd.png)
