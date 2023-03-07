@@ -230,3 +230,7 @@ public class MyClass{
 }
 ```
 
+15. Strategy Pattern
+
+
+
