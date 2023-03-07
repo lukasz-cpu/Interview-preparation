@@ -415,3 +415,7 @@ Being an interface the queue needs a concrete class for the declaration and the 
 
 ![firefox_8T97ZbxCGk](https://user-images.githubusercontent.com/22981511/223497835-e382b0fb-9a0a-4c0a-a870-1627d7f2cbfd.png)
 
+21. Type of references in Java
+
+
+
