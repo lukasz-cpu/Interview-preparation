@@ -352,12 +352,7 @@ public class Main {
 
 17. Comparable vs Comparator
 
-When your class implements Comparable, the compareTo method of the class is defining the "natural" ordering of that object. That method is contractually obligated (though not demanded) to be in line with other methods on that object, such as a 0 should always be returned for objects when the .equals() comparisons return true.
+![firefox_FJVfhJ2S7K](https://user-images.githubusercontent.com/22981511/223449976-e0135d23-23ad-4351-ab27-c966d580b636.jpeg)
 
-A Comparator is its own definition of how to compare two objects, and can be used to compare objects in a way that might not align with the natural ordering.
-
-For example, Strings are generally compared alphabetically. Thus the "a".compareTo("b") would use alphabetical comparisons. If you wanted to compare Strings on length, you would need to write a custom comparator.
-
-In short, there isn't much difference. They are both ends to similar means. In general implement comparable for natural order, (natural order definition is obviously open to interpretation), and write a comparator for other sorting or comparison needs.
 
 
