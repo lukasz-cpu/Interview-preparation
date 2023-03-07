@@ -406,4 +406,7 @@ https://www.techiedelight.com/stack-implementation-in-java/
 
 
 20. Queue
+![firefox_XCK62qZjR0](https://user-images.githubusercontent.com/22981511/223498582-d21f6123-2e23-4bb0-84e9-9a3395428be9.png)
+
+![firefox_8T97ZbxCGk](https://user-images.githubusercontent.com/22981511/223497835-e382b0fb-9a0a-4c0a-a870-1627d7f2cbfd.png)
 
