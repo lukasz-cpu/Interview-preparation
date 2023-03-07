@@ -426,6 +426,11 @@ Here ‘obj’ object is strong reference to newly created instance of MyClass, 
 ```java
 obj = null;
 ```
-//'obj' object is no longer referencing to the instance. 
+'obj' object is no longer referencing to the instance. 
 So the 'MyClass type object is now available for garbage collection.  
+
+- Weak Reference 
+
+<img width="692" alt="Screenshot 2023-03-07 at 22 53 46" src="https://user-images.githubusercontent.com/22981511/223562362-ec7e8a60-0abc-4819-8bf2-a507152e99c8.png">
+
 
