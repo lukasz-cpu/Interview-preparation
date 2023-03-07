@@ -6,7 +6,7 @@ public class Main {
 
         Stack<Integer> result = new Stack<>();
 
-        
+
 
 
     }

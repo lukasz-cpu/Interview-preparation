@@ -385,4 +385,10 @@ public class MyClassTest {
 }
 ```
 
-19.
+19. Stack
+
+
+
+https://www.techiedelight.com/stack-implementation-in-java/
+
+
