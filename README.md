@@ -500,4 +500,7 @@ public class Main {
 
 ![asd](https://user-images.githubusercontent.com/22981511/223700306-86128405-3d0c-490a-9c8a-bf76aac45c21.png)
 
-25. 
+25. SOLID
+
+![asdsssa](https://user-images.githubusercontent.com/22981511/223722088-cd23ec4c-cf59-4705-91f3-4fbdbb8350fe.png)
+
