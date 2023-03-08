@@ -490,3 +490,8 @@ public class Main {
     }
 }
 ```
+
+23. POST vs PUT vs PATCH
+
+![firefox_7IhjGtHKZl](https://user-images.githubusercontent.com/22981511/223697267-ba28c59d-c54e-4ef7-a3c9-d5666b557ef4.png)
+
