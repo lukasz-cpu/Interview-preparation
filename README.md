@@ -1,4 +1,4 @@
-# interview_prep
+# interview-preparation
 
 1. Fibonacci Sequence
 
