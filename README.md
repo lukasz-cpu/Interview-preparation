@@ -504,3 +504,13 @@ public class Main {
 
 ![asdsssa](https://user-images.githubusercontent.com/22981511/223722088-cd23ec4c-cf59-4705-91f3-4fbdbb8350fe.png)
 
+26. What is the difference between an interface and abstract class?
+
+Interface
+
+![asdasdadzxczx](https://user-images.githubusercontent.com/22981511/223732251-b3575777-b9f3-4f2d-8a77-9ab69d2ed9c6.png)
+
+Abstract class
+
+![ok12o3k1o2k313](https://user-images.githubusercontent.com/22981511/223732708-96641b16-6c7f-459f-ada4-827c7495727e.png)
+
