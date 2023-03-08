@@ -543,6 +543,8 @@ The Exception class has two main subclasses: IOException class and RuntimeExcept
 ![Perszing](https://user-images.githubusercontent.com/22981511/223754755-ddf1c4c3-71d6-4cb0-bac1-d8d418d73689.png)
 
 29. Primary Key 
+
+
 ![sadsadd](https://user-images.githubusercontent.com/22981511/223788268-327b89e1-3e48-439f-aed4-ad0951b5376b.png)
 
 
