@@ -439,3 +439,9 @@ Similarly to weak references, phantom references don't prohibit the garbage coll
 
 ![firefox_lIqnlS4qQT](https://user-images.githubusercontent.com/22981511/223655817-fbc5915a-bb2a-4f15-a7eb-37fb72e248b2.png)
 
+- Soft References
+
+![firefox_7IhjGtHKZl](https://user-images.githubusercontent.com/22981511/223659006-80938333-b091-4168-8a55-20459e684d63.png)
+
+
+
