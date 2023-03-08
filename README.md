@@ -500,3 +500,4 @@ public class Main {
 
 ![asd](https://user-images.githubusercontent.com/22981511/223700306-86128405-3d0c-490a-9c8a-bf76aac45c21.png)
 
+25. 
