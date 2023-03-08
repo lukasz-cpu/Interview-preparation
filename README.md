@@ -433,4 +433,9 @@ So the 'MyClass type object is now available for garbage collection.
 
 <img width="692" alt="Screenshot 2023-03-07 at 22 53 46" src="https://user-images.githubusercontent.com/22981511/223562362-ec7e8a60-0abc-4819-8bf2-a507152e99c8.png">
 
+- Phantom References
+
+Similarly to weak references, phantom references don't prohibit the garbage collector from enqueueing objects for being cleared. The difference is phantom references must be manually polled from the reference queue before they can be finalized. That means we can decide what we want to do before they are cleared.
+
+![firefox_lIqnlS4qQT](https://user-images.githubusercontent.com/22981511/223655817-fbc5915a-bb2a-4f15-a7eb-37fb72e248b2.png)
 
