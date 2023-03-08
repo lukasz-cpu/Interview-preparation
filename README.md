@@ -495,3 +495,8 @@ public class Main {
 
 ![firefox_7IhjGtHKZl](https://user-images.githubusercontent.com/22981511/223697267-ba28c59d-c54e-4ef7-a3c9-d5666b557ef4.png)
 
+24. LinkedList vs ArrayList
+
+
+![asd](https://user-images.githubusercontent.com/22981511/223700306-86128405-3d0c-490a-9c8a-bf76aac45c21.png)
+
