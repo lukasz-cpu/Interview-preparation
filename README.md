@@ -514,3 +514,21 @@ Abstract class
 
 ![ok12o3k1o2k313](https://user-images.githubusercontent.com/22981511/223732708-96641b16-6c7f-459f-ada4-827c7495727e.png)
 
+27. Singleton in synchronised way
+
+```java
+public class Singleton {
+    private static Singleton instance;
+
+    private Singleton() {
+        // private constructor to prevent instantiation from outside the class
+    }
+
+    public static synchronized Singleton getInstance() {
+        if (instance == null) {
+            instance = new Singleton();
+        }
+        return instance;
+    }
+}
+```
