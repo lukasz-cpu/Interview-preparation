@@ -532,3 +532,6 @@ public class Singleton {
     }
 }
 ```
+28. Exceptions in Java
+
+![Perszing](https://user-images.githubusercontent.com/22981511/223754755-ddf1c4c3-71d6-4cb0-bac1-d8d418d73689.png)
