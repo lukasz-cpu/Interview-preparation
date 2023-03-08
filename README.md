@@ -443,5 +443,50 @@ Similarly to weak references, phantom references don't prohibit the garbage coll
 
 ![firefox_7IhjGtHKZl](https://user-images.githubusercontent.com/22981511/223659006-80938333-b091-4168-8a55-20459e684d63.png)
 
+22. Race condition
 
+In Java, a race condition occurs when two or more threads access a shared resource or variable simultaneously, and the result of the operation depends on the timing or order of execution of the threads. This can lead to unpredictable and erroneous behavior, as each thread may assume the resource or variable is in a particular state that may have been changed by another thread.
 
+```java
+public class Counter {
+    private int count = 0;
+
+    public void increment() {
+        count++;
+    }
+
+    public int getCount() {
+        return count;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Counter counter = new Counter();
+
+        Thread thread1 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.increment();
+            }
+        });
+
+        Thread thread2 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.increment();
+            }
+        });
+
+        thread1.start();
+        thread2.start();
+
+        try {
+            thread1.join();
+            thread2.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Final count: " + counter.getCount());
+    }
+}
+```
