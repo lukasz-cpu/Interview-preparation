@@ -678,5 +678,5 @@ SELECT column1, column2, ... FROM table2
 
 50. Java 8 Functional Interface
 
-![firefox_qLhJXC6IjR](https://user-images.githubusercontent.com/22981511/224122752-61a8c534-60fc-4ac2-bd3a-aa0fe46ff685.png)
+![firefox_qLhJXC6IjR](https://user-images.githubusercontent.com/22981511/224123224-9c797719-38f8-490e-aba2-d70dea79957e.png)
 
