@@ -623,7 +623,7 @@ https://stackoverflow.com/questions/54341037/time-scheduling-in-spring-boot
 
 ![firefox_cVYMPRk7Em](https://user-images.githubusercontent.com/22981511/224058433-6ce863aa-060a-43fc-a9a0-ac411571e0e1.png)
 
-43.Phenomenons in SQL
+43. Phenomenons in SQL
 - dirty read: a transaction reads data written by a concurrent uncommitted transaction 
 - non repeatable reads: A transaction re-reads data it has previously read and finds that data has been modified by another transaction (that committed since the initial read) 
 - phantom-read: A transaction re-executes a query returning a set of rows that satisfy a search condition and finds that the set of rows satisfying the condition has changed due to another recently-committed transaction
