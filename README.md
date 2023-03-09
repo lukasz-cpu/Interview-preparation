@@ -633,7 +633,10 @@ https://stackoverflow.com/questions/54341037/time-scheduling-in-spring-boot
 
 ![firefox_q3jS5HjTxA](https://user-images.githubusercontent.com/22981511/224069977-eda6f7c4-c283-4c2d-b80f-970b4f9fbc29.png)
 
-45. 
+45. Difference between HashMap, LinkedHashMap and TreeMap
+
+![firefox_OhPsyo40mB](https://user-images.githubusercontent.com/22981511/224072475-02fef992-8b87-48df-8826-b2804e32a20a.png)
+
 
 
 
