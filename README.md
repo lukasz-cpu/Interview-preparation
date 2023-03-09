@@ -570,4 +570,9 @@ The Exception class has two main subclasses: IOException class and RuntimeExcept
 
 ![firefox_eInNp0Nk4W](https://user-images.githubusercontent.com/22981511/223987571-85c6bed5-4e27-4b52-a4db-d8c8bed1bb32.png)
 
+LAZY = fetch when needed
+EAGER = fetch immediately
+
+![firefox_eInNp0Nk4W](https://user-images.githubusercontent.com/22981511/224004337-d0065a8c-e7d4-46f5-b1eb-a723bb8f450e.png)
+
 
