@@ -566,3 +566,8 @@ The Exception class has two main subclasses: IOException class and RuntimeExcept
 
 ![firefox_HAkBwO0LMY](https://user-images.githubusercontent.com/22981511/223977692-975a69be-c926-4a5d-91b7-069dde588c32.png)
 
+34. Finding the middle element of Linked List
+
+![firefox_eInNp0Nk4W](https://user-images.githubusercontent.com/22981511/223987571-85c6bed5-4e27-4b52-a4db-d8c8bed1bb32.png)
+
+
