@@ -579,7 +579,7 @@ EAGER = fetch immediately
 
 36. What is the solution for the N+1 issue in JPA and Hibernate?
 
-![firefox_8LSkOSxmX2](https://user-images.githubusercontent.com/22981511/224012031-3190d038-e4b5-42b5-b17b-1c694b106ffb.png)
+![ApplicationFrameHost_KCfgI6OHNu](https://user-images.githubusercontent.com/22981511/224013392-2fc7f1c6-dd95-40e3-b9f2-bfa72cc8ca3c.png)
 ![firefox_IR1mhLVSHk](https://user-images.githubusercontent.com/22981511/224012097-1f1529df-1e77-47da-9d53-c48888d937b2.png)
 
 
