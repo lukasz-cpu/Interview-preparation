@@ -558,3 +558,8 @@ The Exception class has two main subclasses: IOException class and RuntimeExcept
 
 ![firefox_ANDWNoFm0i](https://user-images.githubusercontent.com/22981511/223973632-f164c76d-cc6a-460a-b69f-a9f707183fe8.png)
 
+32. Type Erasure 
+
+![firefox_HAkBwO0LMY](https://user-images.githubusercontent.com/22981511/223975743-a7fbd3bd-e20e-40f5-a6fc-2f427047fdff.png)
+
+
