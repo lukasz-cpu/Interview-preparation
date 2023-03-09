@@ -663,3 +663,15 @@ The "HAVING" clause is used to filter the results of the GROUP BY clause. It all
 SELECT product_category, SUM(sales) FROM sales_table GROUP BY product_category HAVING SUM(sales) > 100000;
 ```
 
+49.UNION
+
+In SQL, the "UNION" operator is used to combine the result sets of two or more SELECT statements into a single result set. The result set returned by the UNION operator contains all the distinct rows from the combined result sets of the SELECT statements.
+
+The syntax for the UNION operator is as follows:
+
+```java
+SELECT column1, column2, ... FROM table1
+UNION
+SELECT column1, column2, ... FROM table2
+[UNION ...];
+```
