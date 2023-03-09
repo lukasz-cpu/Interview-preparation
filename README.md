@@ -604,4 +604,10 @@ https://stackoverflow.com/questions/32453989/what-is-the-solution-for-the-n1-iss
 - application
 - websocket
 
+40. Time Scheduling in Spring Boot
+
+![obraz](https://user-images.githubusercontent.com/22981511/224048349-00ee882a-e3ee-498c-9604-e94e2f3eb52a.png)
+
+https://stackoverflow.com/questions/54341037/time-scheduling-in-spring-boot
+
 
