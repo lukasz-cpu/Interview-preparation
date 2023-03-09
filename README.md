@@ -647,7 +647,7 @@ https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframe
 
 ![firefox_6rhupwrjOT](https://user-images.githubusercontent.com/22981511/224080242-e0e7107e-30e9-4eed-b258-3ce3a09b85b8.png)
 
-
+48. GROUP BY and HAVING 
 
 
 
