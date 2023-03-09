@@ -570,6 +570,8 @@ The Exception class has two main subclasses: IOException class and RuntimeExcept
 
 ![firefox_eInNp0Nk4W](https://user-images.githubusercontent.com/22981511/223987571-85c6bed5-4e27-4b52-a4db-d8c8bed1bb32.png)
 
+35. Difference between FetchType LAZY and EAGER in Java Persistence API?
+
 LAZY = fetch when needed
 EAGER = fetch immediately
 
