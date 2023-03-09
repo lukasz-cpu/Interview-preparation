@@ -621,13 +621,13 @@ https://stackoverflow.com/questions/54341037/time-scheduling-in-spring-boot
 - ISOLATION_REPEATABLE_READ - If a row is read twice in the same transaction, the result will always be the same.
 - ISOLATION_SERIALIZABLE - Performs all transactions in a sequence.
 
-- dirty read  - A transaction reads data written by a concurrent uncommitted transaction.
-- nonrepeatable read - A transaction re-reads data it has previously read and finds that data has been modified by another transaction (that committed since the initial read).
-- phantom read - A transaction re-executes a query returning a set of rows that satisfy a search condition and finds that the set of rows satisfying the condition has changed due to another recently-committed transaction.
-- serialization anomaly - The result of successfully committing a group of transactions is inconsistent with all possible orderings of running those transactions one at a time.
-
 ![firefox_cVYMPRk7Em](https://user-images.githubusercontent.com/22981511/224058433-6ce863aa-060a-43fc-a9a0-ac411571e0e1.png)
 
+43.Phenomenons in SQL
+- dirty read: a transaction reads data written by a concurrent uncommitted transaction 
+- non repeatable reads: A transaction re-reads data it has previously read and finds that data has been modified by another transaction (that committed since the initial read) 
+- phantom-read: A transaction re-executes a query returning a set of rows that satisfy a search condition and finds that the set of rows satisfying the condition has changed due to another recently-committed transaction
+- serialization anomaly: The result of successfully committing a group of transactions is inconsistent with all possible orderings of running those transactions one at a time.
 
 
 
