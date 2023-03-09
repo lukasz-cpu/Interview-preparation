@@ -637,7 +637,15 @@ https://stackoverflow.com/questions/54341037/time-scheduling-in-spring-boot
 
 ![firefox_OhPsyo40mB](https://user-images.githubusercontent.com/22981511/224072475-02fef992-8b87-48df-8826-b2804e32a20a.png)
 
+46. @Qualifier
 
+This annotation may be used on a field or parameter as a qualifier for candidate beans when autowiring. It may also be used to annotate other custom annotations that can then in turn be used as qualifiers.
+
+https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/annotation/Qualifier.html
+
+47. SOAP vs REST (differences)
+
+![firefox_6rhupwrjOT](https://user-images.githubusercontent.com/22981511/224080242-e0e7107e-30e9-4eed-b258-3ce3a09b85b8.png)
 
 
 
