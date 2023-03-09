@@ -589,4 +589,7 @@ https://stackoverflow.com/questions/32453989/what-is-the-solution-for-the-n1-iss
 ![firefox_IR1mhLVSHk](https://user-images.githubusercontent.com/22981511/224035889-9ccc3ba0-2f85-43cd-a408-a1a6da9df96c.png)
 
 
+38. Sequence vs Identity
+
+![firefox_lZwXisPDMK](https://user-images.githubusercontent.com/22981511/224037159-06cd1ec1-be23-4da0-b31c-ccba079708b0.png)
 
