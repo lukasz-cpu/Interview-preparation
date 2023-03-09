@@ -554,4 +554,7 @@ The Exception class has two main subclasses: IOException class and RuntimeExcept
 
 ![firefox_xSitH7EXPQ](https://user-images.githubusercontent.com/22981511/223968707-8a712106-5951-426a-b5fb-e4959243bc96.png)
 
+31. String Pool 
+
+![firefox_ANDWNoFm0i](https://user-images.githubusercontent.com/22981511/223973632-f164c76d-cc6a-460a-b69f-a9f707183fe8.png)
 
