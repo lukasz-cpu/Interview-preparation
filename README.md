@@ -593,3 +593,15 @@ https://stackoverflow.com/questions/32453989/what-is-the-solution-for-the-n1-iss
 
 ![firefox_lZwXisPDMK](https://user-images.githubusercontent.com/22981511/224037159-06cd1ec1-be23-4da0-b31c-ccba079708b0.png)
 
+39. Spring Bean Scopes
+
+![firefox_6lcQvhIXWZ](https://user-images.githubusercontent.com/22981511/224047774-035275ed-fc09-440b-9095-0fcdb8b0734b.png)
+
+- singleton
+- prototype
+- request
+- session
+- application
+- websocket
+
+
