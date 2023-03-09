@@ -649,5 +649,17 @@ https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframe
 
 48. GROUP BY and HAVING 
 
+In SQL, "GROUP BY" and "HAVING" are both clauses that are used in conjunction with the SELECT statement to filter and aggregate data. While both clauses are related to filtering data based on a condition, they have different functions.
 
+The "GROUP BY" clause is used to group the result set by one or more columns. This is useful when you want to aggregate data based on a specific category. For example, if you have a table of sales data, you might use the GROUP BY clause to group the data by product category to see the total sales for each category:
+
+```java
+SELECT product_category, SUM(sales) FROM sales_table GROUP BY product_category;
+```
+
+The "HAVING" clause is used to filter the results of the GROUP BY clause. It allows you to specify a condition that must be met for the grouped data to be included in the result set. For example, you might use the HAVING clause to filter the results of the previous example to only include categories where the total sales are greater than a certain amount:
+
+```java
+SELECT product_category, SUM(sales) FROM sales_table GROUP BY product_category HAVING SUM(sales) > 100000;
+```
 
