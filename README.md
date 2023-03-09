@@ -610,4 +610,10 @@ https://stackoverflow.com/questions/32453989/what-is-the-solution-for-the-n1-iss
 
 https://stackoverflow.com/questions/54341037/time-scheduling-in-spring-boot
 
+41. Difference between StringBuilder and StringBuffer
+
+![firefox_BPsB4nf2Wn](https://user-images.githubusercontent.com/22981511/224050958-a7a715d2-ae80-4ba1-b030-f4d53a0af044.png)
+
+
+
 
