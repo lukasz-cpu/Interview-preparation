@@ -562,4 +562,7 @@ The Exception class has two main subclasses: IOException class and RuntimeExcept
 
 ![firefox_HAkBwO0LMY](https://user-images.githubusercontent.com/22981511/223975743-a7fbd3bd-e20e-40f5-a6fc-2f427047fdff.png)
 
+33. HashSet vs LinkedHashSet
+
+![firefox_HAkBwO0LMY](https://user-images.githubusercontent.com/22981511/223977692-975a69be-c926-4a5d-91b7-069dde588c32.png)
 
