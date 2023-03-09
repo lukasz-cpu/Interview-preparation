@@ -584,6 +584,9 @@ https://stackoverflow.com/questions/32453989/what-is-the-solution-for-the-n1-iss
 ![ApplicationFrameHost_KCfgI6OHNu](https://user-images.githubusercontent.com/22981511/224013392-2fc7f1c6-dd95-40e3-b9f2-bfa72cc8ca3c.png)
 ![firefox_IR1mhLVSHk](https://user-images.githubusercontent.com/22981511/224012097-1f1529df-1e77-47da-9d53-c48888d937b2.png)
 
-37. 
+37. Pagination
+
+![firefox_IR1mhLVSHk](https://user-images.githubusercontent.com/22981511/224035889-9ccc3ba0-2f85-43cd-a408-a1a6da9df96c.png)
+
 
 
