@@ -675,3 +675,8 @@ UNION
 SELECT column1, column2, ... FROM table2
 [UNION ...];
 ```
+
+50. Java 8 Functional Interface
+
+![firefox_qLhJXC6IjR](https://user-images.githubusercontent.com/22981511/224122752-61a8c534-60fc-4ac2-bd3a-aa0fe46ff685.png)
+
