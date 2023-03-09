@@ -577,4 +577,9 @@ EAGER = fetch immediately
 
 ![firefox_eInNp0Nk4W](https://user-images.githubusercontent.com/22981511/224004337-d0065a8c-e7d4-46f5-b1eb-a723bb8f450e.png)
 
+36. What is the solution for the N+1 issue in JPA and Hibernate?
+
+![firefox_8LSkOSxmX2](https://user-images.githubusercontent.com/22981511/224012031-3190d038-e4b5-42b5-b17b-1c694b106ffb.png)
+![firefox_IR1mhLVSHk](https://user-images.githubusercontent.com/22981511/224012097-1f1529df-1e77-47da-9d53-c48888d937b2.png)
+
 
