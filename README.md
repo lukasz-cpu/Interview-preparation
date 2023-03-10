@@ -680,3 +680,9 @@ SELECT column1, column2, ... FROM table2
 
 ![firefox_qLhJXC6IjR](https://user-images.githubusercontent.com/22981511/224123224-9c797719-38f8-490e-aba2-d70dea79957e.png)
 
+51. Semaphores 
+
+A counting semaphore. Conceptually, a semaphore maintains a set of permits. Each acquire() blocks if necessary until a permit is available, and then takes it. Each release() adds a permit, potentially releasing a blocking acquirer. However, no actual permit objects are used; the Semaphore just keeps a count of the number available and acts accordingly. Semaphores are often used to restrict the number of threads than can access some (physical or logical) resource.
+
+![Screenshot 2023-03-10 at 13 19 40](https://user-images.githubusercontent.com/22981511/224314504-e1ce93b4-b19e-4f2d-a86e-e15d3f1a3cbc.png)
+
