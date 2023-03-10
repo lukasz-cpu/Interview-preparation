@@ -704,3 +704,106 @@ https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html
 
 ![Screenshot 2023-03-10 at 13 33 50](https://user-images.githubusercontent.com/22981511/224317417-11c983af-ed94-45f5-a709-9e5a170ad58b.png)
 
+54. Liskov substitution 
+
+```java
+class Shape {
+  int area() {
+    return 0;
+  }
+}
+
+class Rectangle extends Shape {
+  int width;
+  int height;
+  
+  @Override
+  int area() {
+    return width * height;
+  }
+}
+
+class Square extends Shape {
+  int side;
+  
+  @Override
+  int area() {
+    return side * side;
+  }
+}
+
+class AreaCalculator {
+  int calculateArea(Shape shape) {
+    return shape.area();
+  }
+}
+
+public class LiskovSubstitutionExample {
+  public static void main(String[] args) {
+    Rectangle rectangle = new Rectangle();
+    rectangle.width = 5;
+    rectangle.height = 10;
+    
+    Square square = new Square();
+    square.side = 5;
+    
+    AreaCalculator calculator = new AreaCalculator();
+    int rectangleArea = calculator.calculateArea(rectangle);
+    int squareArea = calculator.calculateArea(square);
+    
+    System.out.println("Rectangle area: " + rectangleArea);
+    System.out.println("Square area: " + squareArea);
+  }
+}
+
+```
+
+55. Dependency inversion principle 
+
+```java
+public interface Database {
+    void saveData(String data);
+}
+
+public class MySqlDatabase implements Database {
+    public void saveData(String data) {
+        System.out.println("Saving " + data + " to MySQL database");
+    }
+}
+
+public class PostgresDatabase implements Database {
+    public void saveData(String data) {
+        System.out.println("Saving " + data + " to Postgres database");
+    }
+}
+
+public class OrderProcessor {
+    private final Database database;
+    
+    public OrderProcessor(Database database) {
+        this.database = database;
+    }
+    
+    public void processOrder(String orderData) {
+        // Process order
+        database.saveData(orderData);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Create a MySQL database instance and use it to process an order
+        Database mySqlDatabase = new MySqlDatabase();
+        OrderProcessor orderProcessor = new OrderProcessor(mySqlDatabase);
+        orderProcessor.processOrder("Order data");
+        
+        // Create a Postgres database instance and use it to process another order
+        Database postgresDatabase = new PostgresDatabase();
+        orderProcessor = new OrderProcessor(postgresDatabase);
+        orderProcessor.processOrder("Another order data");
+    }
+}
+
+```
+
+
