@@ -686,3 +686,16 @@ A counting semaphore. Conceptually, a semaphore maintains a set of permits. Each
 
 ![Screenshot 2023-03-10 at 13 19 40](https://user-images.githubusercontent.com/22981511/224314504-e1ce93b4-b19e-4f2d-a86e-e15d3f1a3cbc.png)
 
+52.
+
+- Future
+https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Future.html
+
+- FutureTask
+https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/FutureTask.html
+
+- Callable
+https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Callable.html
+
+- Runnable 
+https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html
