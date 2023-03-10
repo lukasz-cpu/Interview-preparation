@@ -699,3 +699,8 @@ https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/Callable.html
 
 - Runnable 
 https://docs.oracle.com/javase/7/docs/api/java/lang/Runnable.html
+
+53. The difference between the Runnable and Callable interfaces in Java?
+
+![Screenshot 2023-03-10 at 13 33 50](https://user-images.githubusercontent.com/22981511/224317417-11c983af-ed94-45f5-a709-9e5a170ad58b.png)
+
