@@ -806,4 +806,9 @@ public class Main {
 
 ```
 
+56. Difference between PreparedStatement and CallableStatement
+
+![Screenshot 2023-03-11 at 18 30 10](https://user-images.githubusercontent.com/22981511/224503034-fa4a81b0-0b29-4600-a084-6f41244819d8.png)
+![Screenshot 2023-03-11 at 18 30 21](https://user-images.githubusercontent.com/22981511/224503039-84a63360-3abb-4f40-ab8d-1dc1fbd972c6.png)
+
 
