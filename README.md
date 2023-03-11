@@ -825,3 +825,12 @@ https://stackoverflow.com/questions/3519664/difference-between-volatile-and-sync
 
 ![Screenshot 2023-03-11 at 18 50 00](https://user-images.githubusercontent.com/22981511/224503911-6c3b5178-2b8b-42af-aab6-182808b71bed.png)
 
+60. OAuth vs JWT
+
+OAuth and JWT are both protocols used for authentication and authorization in web applications, but they serve different purposes.
+
+OAuth (Open Authorization) is an authorization protocol used for granting third-party applications access to a user's resources without sharing their login credentials. It allows users to grant permissions to external applications to access their data on behalf of them. OAuth provides a secure and standardized way to handle user authorization and access control. OAuth generates an access token that the client can use to access protected resources on behalf of the user. OAuth is commonly used for social login, allowing users to authenticate with their social media accounts and use the application without creating a new account.
+
+JWT (JSON Web Token) is a format used to transmit information securely between parties as a JSON object. It's commonly used for authentication and authorization, like OAuth, but it differs in that it is self-contained and does not require server-side storage of session data. JWT contains a set of claims, which are statements about the user, encoded as a JSON object, and signed using a secret key. The signature ensures that the token is authentic and has not been tampered with. The most common use case for JWT is stateless authentication, where the user's credentials are validated once, and a token is issued that the client can use to authenticate all subsequent requests.
+
+In summary, OAuth is primarily used for delegating authorization to third-party applications, while JWT is used for stateless authentication and authorization.
