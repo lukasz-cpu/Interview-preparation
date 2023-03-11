@@ -817,3 +817,6 @@ public class Main {
 ![Screenshot 2023-03-11 at 18 39 00](https://user-images.githubusercontent.com/22981511/224503426-2141cbbe-7db6-4c3a-81ce-45e5ee1c4c08.png)
 ![Screenshot 2023-03-11 at 18 39 14](https://user-images.githubusercontent.com/22981511/224503428-2790b78c-0f16-4a1b-855c-237b81155af4.png)
 
+58. Difference between volatile and synchronized in Java
+
+https://stackoverflow.com/questions/3519664/difference-between-volatile-and-synchronized-in-java
