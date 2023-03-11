@@ -811,4 +811,7 @@ public class Main {
 ![Screenshot 2023-03-11 at 18 30 10](https://user-images.githubusercontent.com/22981511/224503034-fa4a81b0-0b29-4600-a084-6f41244819d8.png)
 ![Screenshot 2023-03-11 at 18 30 21](https://user-images.githubusercontent.com/22981511/224503039-84a63360-3abb-4f40-ab8d-1dc1fbd972c6.png)
 
+57. Bucket structure (hash)
+
+![Screenshot 2023-03-11 at 18 35 48](https://user-images.githubusercontent.com/22981511/224503297-5b8af411-9ede-4c09-acaf-18645c98c466.png)
 
