@@ -820,3 +820,8 @@ public class Main {
 58. Difference between volatile and synchronized in Java
 
 https://stackoverflow.com/questions/3519664/difference-between-volatile-and-synchronized-in-java
+
+59. Life Cycle of a Spring Bean
+
+![Screenshot 2023-03-11 at 18 50 00](https://user-images.githubusercontent.com/22981511/224503911-6c3b5178-2b8b-42af-aab6-182808b71bed.png)
+
