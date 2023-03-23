@@ -853,3 +853,21 @@ public class ValidationException extends Exception {
 
 ![Screenshot 2023-03-14 at 11 01 44](https://user-images.githubusercontent.com/22981511/224965827-b9ab31bf-e2a0-4a09-9a29-ca9cc74aebc4.png)
 
+62.
+
+* Levels of cache in JPA
+* How would you partition a database? 
+* What would you be your biggest concerns while extracting micro-services from the monolith?
+* How to do exactly once guarantee with Kafka?
+* how does garbage collection work?
+* how do you check memory usage in java? Profiling?
+* what are disadvantages of inheritance? 
+* what are the transaction scopes?
+* Give examples of Aop
+* Lifecycle of JPA object
+* How would you dynamically create queries in Hibernate? 
+* CQRS
+* Saga patern
+* Difference between Orchestration vs Coreography
+* They asked for some examples of real life usages of SOLID and design patterns
+* lifecycle beans 
