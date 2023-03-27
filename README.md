@@ -859,6 +859,11 @@ https://vladmihalcea.com/jpa-hibernate-first-level-cache/
 
 ![Screenshot 2023-03-27 at 15 29 29](https://user-images.githubusercontent.com/22981511/227952277-c330eb27-f375-4ed1-bbc6-88b828bd6e92.png)
 
+63. The JPA and Hibernate first-level cache
+
+![Screenshot 2023-03-27 at 16 52 27](https://user-images.githubusercontent.com/22981511/227977424-e600683f-dd18-4037-8f51-7bfa320ebbba.png)
+
+
 
 * Levels of cache in JPA
 * How would you partition a database? 
