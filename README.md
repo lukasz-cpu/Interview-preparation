@@ -857,7 +857,8 @@ public class ValidationException extends Exception {
 
 https://vladmihalcea.com/jpa-hibernate-first-level-cache/
 
-![Screenshot 2023-03-27 at 14 54 11](https://user-images.githubusercontent.com/22981511/227951973-f547c9a6-be7c-49d1-8257-fcb377cbfa59.png)
+![Screenshot 2023-03-27 at 15 29 29](https://user-images.githubusercontent.com/22981511/227952277-c330eb27-f375-4ed1-bbc6-88b828bd6e92.png)
+
 
 * Levels of cache in JPA
 * How would you partition a database? 
