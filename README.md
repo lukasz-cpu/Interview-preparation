@@ -868,6 +868,12 @@ https://vladmihalcea.com/jpa-hibernate-first-level-cache/
 - Vertical Partitioning on SQL Server tables
 <img width="730" alt="Screenshot 2023-05-02 at 18 31 44" src="https://user-images.githubusercontent.com/22981511/235728569-75640d37-d611-48af-b120-5d4d816b0a55.png">
 
+- Horizontal partitioning on SQL Server tables
+<img width="722" alt="Screenshot 2023-05-02 at 18 35 09" src="https://user-images.githubusercontent.com/22981511/235729217-2e4b19bf-a1b2-424f-831a-ee14285a7f24.png">
+
+- SQL Server Table Partitioning 
+https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-partitioning/
+
 
 
 
