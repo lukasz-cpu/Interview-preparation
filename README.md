@@ -863,6 +863,12 @@ https://vladmihalcea.com/jpa-hibernate-first-level-cache/
 
 ![Screenshot 2023-03-27 at 16 52 27](https://user-images.githubusercontent.com/22981511/227977424-e600683f-dd18-4037-8f51-7bfa320ebbba.png)
 
+64. Partitioning in databases :
+
+- Vertical Partitioning on SQL Server tables
+<img width="730" alt="Screenshot 2023-05-02 at 18 31 44" src="https://user-images.githubusercontent.com/22981511/235728569-75640d37-d611-48af-b120-5d4d816b0a55.png">
+
+
 
 
 * Levels of cache in JPA
