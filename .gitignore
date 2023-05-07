@@ -6,3 +6,6 @@
 .idea/workspace.xml
 out/production/interview_prep/codes/ComparableAndComparator/Example.class
 out/production/interview_prep/README.md
+.idea/uiDesigner.xml
+*.class
+out/production/interview_prep/.idea/uiDesigner.xml

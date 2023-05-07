@@ -204,7 +204,7 @@ To use the Builder Pattern, we would create a new Person object using the builde
 
 ```java
 Person person = new Person.PersonBuilder("John", 30)
-        .address("123 Main St")
+        .address("123 codebase.Main St")
         .phone("555-555-1234")
         .build();
 ```
@@ -285,7 +285,7 @@ public class PaymentContext {
 }
 ```
 ```java
-public class Main {
+public class codebase.Main {
     public static void main(String[] args) {
         PaymentContext paymentContext = new PaymentContext(new CreditCardPayment("John Doe", "1234 5678 9012 3456", "123", "12/22"));
         paymentContext.executePayment(100.0);
@@ -341,7 +341,7 @@ public class ComputerFacade {
     }
 }
 
-public class Main {
+public class codebase.Main {
     public static void main(String[] args) {
         ComputerFacade computer = new ComputerFacade();
         computer.start();
@@ -460,7 +460,7 @@ public class Counter {
     }
 }
 
-public class Main {
+public class codebase.Main {
     public static void main(String[] args) {
         Counter counter = new Counter();
 
@@ -790,7 +790,7 @@ public class OrderProcessor {
     }
 }
 
-public class Main {
+public class codebase.Main {
     public static void main(String[] args) {
         // Create a MySQL database instance and use it to process an order
         Database mySqlDatabase = new MySqlDatabase();

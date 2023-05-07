@@ -1,3 +1,5 @@
+package codebase;
+
 import java.util.stream.IntStream;
 
 public class Palidrome {
