@@ -874,7 +874,9 @@ https://vladmihalcea.com/jpa-hibernate-first-level-cache/
 - SQL Server Table Partitioning 
 https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-partitioning/
 
+65. What does the spring annotation @ConditionalOnMissingBean do?
 
+![firefox_9L5W9RYocK](https://user-images.githubusercontent.com/22981511/236680523-6050438c-58da-47b8-b123-4401bb2f1deb.png)
 
 
 * Levels of cache in JPA
