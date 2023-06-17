@@ -878,6 +878,9 @@ https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-par
 
 ![firefox_9L5W9RYocK](https://user-images.githubusercontent.com/22981511/236680523-6050438c-58da-47b8-b123-4401bb2f1deb.png)
 
+66. Kafka Delivery Semantics
+
+![firefox_eMwZ7drZJM](https://user-images.githubusercontent.com/22981511/236692756-b588c2f7-2837-43e3-a941-310f11751239.png)
 
 * Levels of cache in JPA
 * How would you partition a database? 
