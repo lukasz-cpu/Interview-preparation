@@ -897,4 +897,5 @@ https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-par
 * Saga patern
 * Difference between Orchestration vs Coreography
 * They asked for some examples of real life usages of SOLID and design patterns
-* lifecycle beans 
+* lifecycle beans
+* https://www.baeldung.com/hibernate-entity-lifecycle
