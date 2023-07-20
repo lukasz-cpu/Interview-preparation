@@ -900,3 +900,4 @@ https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-par
 * lifecycle beans
 * https://www.baeldung.com/hibernate-entity-lifecycle
 * Dirty checking hibernate
+* ON DELETE CASCADE
