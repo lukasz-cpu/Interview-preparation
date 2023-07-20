@@ -901,3 +901,4 @@ https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-par
 * https://www.baeldung.com/hibernate-entity-lifecycle
 * Dirty checking hibernate
 * ON DELETE CASCADE
+* https://stackoverflow.com/questions/5360795/what-is-the-difference-between-unidirectional-and-bidirectional-jpa-and-hibernat
