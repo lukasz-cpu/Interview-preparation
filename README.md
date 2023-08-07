@@ -903,3 +903,4 @@ https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-par
 * ON DELETE CASCADE
 * https://stackoverflow.com/questions/5360795/what-is-the-difference-between-unidirectional-and-bidirectional-jpa-and-hibernat
 * https://stackoverflow.com/questions/19857008/extending-exception-runtimeexception-in-java
+* https://stackoverflow.com/questions/46455325/whats-the-difference-between-fetchgraph-and-loadgraph-in-jpa-2-1
