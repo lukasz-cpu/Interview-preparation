@@ -905,3 +905,20 @@ https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-par
 * https://stackoverflow.com/questions/19857008/extending-exception-runtimeexception-in-java
 * https://stackoverflow.com/questions/46455325/whats-the-difference-between-fetchgraph-and-loadgraph-in-jpa-2-1
 * https://stackoverflow.com/questions/47571117/what-is-the-difference-between-completionstage-and-completablefuture
+
+
+UPDATE MGM_CONTENT_DETAILS D
+SET D.CONTENT = (
+  SELECT REGEXP_REPLACE(
+    D.CONTENT,
+    '(mgmSectionId=[^&]*(&|$))',
+    'mgmSectionId=' || TO_CHAR((SELECT C.MGM_PLACEMENT_ID FROM MGM_CONTENT C WHERE C.ID = D.MGM_CONTENT_ID)),
+    1,
+    0,
+    'i'
+  )
+  FROM dual
+)
+WHERE D.ID = 3
+  AND REGEXP_LIKE(D.CONTENT, '(mgmSectionId=[^&]*(&|$))', 'i');
+
