@@ -882,10 +882,6 @@ https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-par
 
 ![firefox_eMwZ7drZJM](https://user-images.githubusercontent.com/22981511/236692756-b588c2f7-2837-43e3-a941-310f11751239.png)
 
-* Levels of cache in JPA
-* How would you partition a database? 
-* What would you be your biggest concerns while extracting micro-services from the monolith?
-* How to do exactly once guarantee with Kafka?
 * how does garbage collection work?
 * how do you check memory usage in java? Profiling?
 * what are disadvantages of inheritance? 
