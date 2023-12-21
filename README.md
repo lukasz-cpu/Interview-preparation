@@ -886,6 +886,9 @@ https://www.sqlservertutorial.net/sql-server-administration/sql-server-table-par
 
 In computer science, garbage collection (GC) is a form of automatic memory management. The garbage collector attempts to reclaim memory which was allocated by the program, but is no longer referenced; such memory is called garbage. Garbage collection was invented by American computer scientist John McCarthy around 1959 to simplify manual memory management in Lisp. Garbage collection relieves the programmer from doing manual memory management, where the programmer specifies what objects to de-allocate and return to the memory system and when to do so. Other, similar techniques include stack allocation, region inference, and memory ownership, and combinations thereof. Garbage collection may take a significant proportion of a program's total processing time, and affect performance as a result. Resources other than memory, such as network sockets, database handles, windows, file descriptors, and device descriptors, are not typically handled by garbage collection, but rather by other methods (e.g. destructors). Some such methods de-allocate memory also. 
 
+![firefox_Kfhj9UC7R4](https://github.com/lukasz-cpu/Interview-preparation/assets/22981511/8f0fb5bf-1dc9-422d-89ba-2e431689164a)
+
+
 * how does garbage collection work?
 * how do you check memory usage in java? Profiling?
 * what are disadvantages of inheritance? 
