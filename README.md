@@ -908,6 +908,7 @@ In computer science, garbage collection (GC) is a form of automatic memory manag
 * https://stackoverflow.com/questions/19857008/extending-exception-runtimeexception-in-java
 * https://stackoverflow.com/questions/46455325/whats-the-difference-between-fetchgraph-and-loadgraph-in-jpa-2-1
 * https://stackoverflow.com/questions/47571117/what-is-the-difference-between-completionstage-and-completablefuture
+* https://www.baeldung.com/resilience4j-backoff-jitter
 
 
 
